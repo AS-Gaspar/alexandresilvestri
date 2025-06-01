@@ -1,0 +1,20 @@
+{
+  "name": "alexandresilvestri",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/AS-Gaspar/alexandresilvestri#readme",
+  "bugs": {
+    "url": "https://github.com/AS-Gaspar/alexandresilvestri/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AS-Gaspar/alexandresilvestri.git"
+  },
+  "license": "ISC",
+  "author": "alexandre silvestri",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
