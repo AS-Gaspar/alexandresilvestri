@@ -1,31 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 * {
-    margin: 0;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #4984B8;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+  background-color: #4984b8;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
 }
 
 .background {
-    background-color: #ffff;
-    width: 70vw;
-    height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 237, 237);
+  width: 70vw;
+  height: 100%;
+}
+
+h1, h2 {
+    background-image: linear-gradient(to right, #4984b8, #92adc5);
+    padding: 4px;
+    border-radius: 10px;
 }
 
 .container-profile {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 10px;
 }
 
 .image {
-    width: 15vw;
-    box-shadow: 1px 1px 2px lightgray;
-    border-radius: 50%;
+  width: 20vw;
+  border-radius: 50%;
 }
 
+.firstSession,
+.secondSession,
+.thirdSession,
+.fourthSession {
+  width: 100%;
+  align-self: flex-start;
+  list-style-position: inside;
+  padding-left: 0;
+  padding: 15px;
+}
