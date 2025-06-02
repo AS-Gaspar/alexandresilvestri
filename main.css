@@ -48,7 +48,7 @@ body {
 }
 
 h2 {
-  background-image: linear-gradient(to right, gray, white);
+  background-image: linear-gradient(to right, gray, rgb(238, 237, 237));
   padding: 4px;
   border-radius: 10px;
 }
